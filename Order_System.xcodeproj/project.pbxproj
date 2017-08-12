@@ -97,6 +97,7 @@
 		5728A7691F3EDC3E00668099 /* Order_System */ = {
 			isa = PBXGroup;
 			children = (
+				5728A7981F3EDD5D00668099 /* app_main */,
 				5728A76A1F3EDC3E00668099 /* AppDelegate.swift */,
 				5728A76C1F3EDC3E00668099 /* ViewController.swift */,
 				5728A76E1F3EDC3E00668099 /* Main.storyboard */,
@@ -123,6 +124,13 @@
 				5728A78C1F3EDC3E00668099 /* Info.plist */,
 			);
 			path = Order_SystemUITests;
+			sourceTree = "<group>";
+		};
+		5728A7981F3EDD5D00668099 /* app_main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = app_main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
