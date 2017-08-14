@@ -14,6 +14,7 @@
 		5728A7751F3EDC3E00668099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5728A7731F3EDC3E00668099 /* LaunchScreen.storyboard */; };
 		5728A7801F3EDC3E00668099 /* Order_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5728A77F1F3EDC3E00668099 /* Order_SystemTests.swift */; };
 		5728A78B1F3EDC3E00668099 /* Order_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5728A78A1F3EDC3E00668099 /* Order_SystemUITests.swift */; };
+		57A45DCA1F41D43B001E2E95 /* Bean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A45DC91F41D43B001E2E95 /* Bean.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5728A7861F3EDC3E00668099 /* Order_SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Order_SystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5728A78A1F3EDC3E00668099 /* Order_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order_SystemUITests.swift; sourceTree = "<group>"; };
 		5728A78C1F3EDC3E00668099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A45DC91F41D43B001E2E95 /* Bean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bean.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,8 @@
 		5728A7691F3EDC3E00668099 /* Order_System */ = {
 			isa = PBXGroup;
 			children = (
-				5728A7981F3EDD5D00668099 /* app_main */,
+				57A45DC21F41CFEE001E2E95 /* domain */,
+				57A45DC11F41CFE3001E2E95 /* Bean */,
 				5728A76A1F3EDC3E00668099 /* AppDelegate.swift */,
 				5728A76C1F3EDC3E00668099 /* ViewController.swift */,
 				5728A76E1F3EDC3E00668099 /* Main.storyboard */,
@@ -126,11 +129,19 @@
 			path = Order_SystemUITests;
 			sourceTree = "<group>";
 		};
-		5728A7981F3EDD5D00668099 /* app_main */ = {
+		57A45DC11F41CFE3001E2E95 /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				57A45DC91F41D43B001E2E95 /* Bean.swift */,
+			);
+			name = Bean;
+			sourceTree = "<group>";
+		};
+		57A45DC21F41CFEE001E2E95 /* domain */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = app_main;
+			name = domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 			files = (
 				5728A76D1F3EDC3E00668099 /* ViewController.swift in Sources */,
 				5728A76B1F3EDC3E00668099 /* AppDelegate.swift in Sources */,
+				57A45DCA1F41D43B001E2E95 /* Bean.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +525,7 @@
 				5728A7911F3EDC3E00668099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5728A7921F3EDC3E00668099 /* Build configuration list for PBXNativeTarget "Order_SystemTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +534,7 @@
 				5728A7941F3EDC3E00668099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5728A7951F3EDC3E00668099 /* Build configuration list for PBXNativeTarget "Order_SystemUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +543,7 @@
 				5728A7971F3EDC3E00668099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
